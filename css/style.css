@@ -68,8 +68,18 @@ h2 {
     padding: 10px 150px 10px 150px;
     color: rgb(255, 255, 255);
     bottom: 99px;
-    right: 0px;
+    right: 10px;
     font-size: 20px;
+}
+
+.gitIcon {
+    font-size: 40px;
+    color:black;
+    margin-left: 0px;
+}
+
+.card-footer {
+    background: #4aaaa5;
 }
 
 /* Contact */
