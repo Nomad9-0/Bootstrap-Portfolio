@@ -15,8 +15,6 @@ body {
 /* Navigation */
 .navbar {
     background-color: #ffffff;
-    /* border-bottom-style: solid;
-    border-color: #cccccc;  */
     padding: 0 1em;
     align-items: center;
     justify-content: space-between;
