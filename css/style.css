@@ -57,7 +57,7 @@ body {
 
 h2 {
     margin-bottom: 0px;
-    color: #4aaaa5;
+    color: #333838;
 }
 
 /* Portfolio */
@@ -102,7 +102,6 @@ footer {
     background-color: grey;
     border-top-style: solid;
     border-top-width: thick;
-    border-color: #4aaaa5;
     color: white;
     text-align: center;
     padding-top: 20px;
