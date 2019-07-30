@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio showcasing prijects I have worked on. Constantly being updated and subject to change.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nomad9-0/Bootstrap-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nomad9-0/Bootstrap-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Nomad9-0/Bootstrap-Portfolio#readme"
+}
