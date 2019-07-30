@@ -11,28 +11,30 @@
 
 <!--Navigation-->
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navHeaderCollapse">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navHeaderCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
 
-        <div class="collapse navbar-collapse" id="navHeaderCollapse">
-          <a class="navbrand text-white bg-dark" href="index.html">Oscar Jimenez</a>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
+    
+      <h3 class="navbrand text-white bg-dark" href="index.html">Oscar Jimenez</h3>
+    
+    <span className="collapse navbar-collapse nav justify-content-end navbar-toggler navbar-toggler-icon" id="navbarNav" data-toggle="collapse" data-target="#navHeaderCollapse"> 
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </span>
 
-    </nav>
+  </nav>
 
 </header>
 
@@ -45,7 +47,7 @@
         <hr>
       <div class="row">
         <div class="col">
-            <form>
+            <form action="mailto:ojimenezlmpc@gmail.com" method="POST" enctype="text/plain">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Name</label>
                   <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name">
@@ -59,7 +61,7 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
                 </div>
                 
-                <button class="bg-dark" id="submit" type="button">Submit</button> 
+                <button class="bg-dark" id="submit" type="submit">Send</button> 
               </form>
 
           </div>
